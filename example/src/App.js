@@ -1,10 +1,14 @@
 import React from 'react'
 
-import { ExampleComponent } from 'dumbo'
+import { ButtonComponent} from 'dumbo'
 import 'dumbo/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return (
+
+    <ButtonComponent type="link" text="Click me !" />
+
+  )
 }
 
-export default App
+export default App;

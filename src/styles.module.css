@@ -1,9 +1,69 @@
 /* add css module styles here (optional) */
 
-.test {
-  margin: 2em;
-  padding: 0.5em;
-  border: 2px solid #000;
-  font-size: 2em;
+.primary{
+  color:wheat;
+  background: rgb(99, 99, 138);
+  font-family: 'Amaranth', sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  font-style: italic;
+  text-transform: capitalize;
+  padding: 3px 15px;
+  margin: 250px;
   text-align: center;
+}
+.default{
+  color:black;
+  background: transparent;
+  font-family: 'Amaranth', sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  font-style: bold;
+  text-transform: capitalize;
+  padding: 3px 15px;
+  margin: 250px;
+  text-align: center;
+
+}
+.dashed {
+  color:black;
+  background: transparent;
+  font-family: 'Amaranth', sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  font-style: bold;
+  text-transform: capitalize;
+  padding: 3px 15px;
+  margin: 250px;
+  text-align: center;
+  border-style: dashed;
+}
+.text{
+  color:black;
+  background: transparent;
+  font-family: 'Amaranth', sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  font-style: bold;
+  text-transform: capitalize;
+  padding: 3px 15px;
+  margin: 250px;
+  text-align: center;
+  border-style: none
+
+}
+.link {
+  color:blue;
+  background: transparent;
+  font-family: 'Amaranth', sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  font-style: bold;
+  text-transform: capitalize;
+  padding: 3px 15px;
+  margin: 250px;
+  text-align: center;
+  border-style: none
+
+
 }
